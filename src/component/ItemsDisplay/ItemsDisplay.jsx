@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ItemsDisplay.css";
 import image1 from "./ChatGPT Image Feb 13, 2026, 12_14_58 PM.png";
 import  {
