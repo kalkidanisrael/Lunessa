@@ -21,8 +21,6 @@ function App() {
       
     }
    
-   
-
   }
   function removeFromCart(item){
     setCartItems(cartItems.filter((_,i)=>
@@ -35,7 +33,7 @@ function App() {
       <Routes>
       <Route path='/' element={<Home addToCart={addToCart}/>}/>
       <Route path='/Cosmetics' element={<Cosmetics addToCart={addToCart} cartItems={cartItems}/>} />
-      <Route path='/MaleSection' element={<MaleSection addToCart={addToCart} cartItems={cartItems} count={count}/>}/>
+      <Route path='/MaleSection' element={<MaleSection addToCart={addToCart} cartItems={cartItems} />}/>
       <Route path='/FemaleSection' element={<FemaleSection addToCart={addToCart} cartItems={cartItems} />}/>
        <Route path='/Bride' element={<Bride cartItems={cartItems} SetTotal={SetTotal} addToCart={addToCart}/>} />
       <Route path='/Cart' element={<Cart cartItems={cartItems} SetTotal={SetTotal} addToCart={addToCart} removeFromCart={removeFromCart}/>}/>
