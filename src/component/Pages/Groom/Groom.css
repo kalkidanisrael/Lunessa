@@ -1,0 +1,93 @@
+.groom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.groom-accessories ul, .groom-clothes ul{
+  width: 220px;
+  height: 260px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding: 20px 20px;
+ 
+ 
+}
+.groom-accessories img, .groom-clothes img{
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+}
+.groom-accessories, .groom-clothes {
+  display: flex;
+   gap: 30px;
+    overflow-x: auto;
+  -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+.groom-accessories p,.groom-clothes p{
+  font-size: 14px;        
+  color: #555;
+  text-align: center;
+  margin: 10px 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.groom-clothes:hover , .groom-accessories:hover{
+  transform: translateY(-5px);
+}
+.groom-accessories button, .groom-clothes button{
+    border: none;
+}
+/* TABLETS */
+@media (max-width: 992px) {
+
+  .groom-accessories,
+  .groom-clothes {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .groom-accessories ul,
+  .groom-clothes ul {
+    width: 180px;
+    height: 230px;
+    padding: 15px;
+  }
+
+  .groom-accessories img,
+  .groom-clothes img {
+    width: 130px;
+    height: 160px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+  .groom-accessories,
+  .groom-clothes {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .groom-accessories ul,
+  .groom-clothes ul {
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+  }
+
+  .groom-accessories img,
+  .groom-clothes img {
+    width: 120px;
+    height: 140px;
+  }
+}

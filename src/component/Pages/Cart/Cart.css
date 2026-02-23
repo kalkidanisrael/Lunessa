@@ -1,0 +1,162 @@
+.cart {
+  width: 100%;
+  padding: 40px 0;
+  background: #f9f9f9;
+}
+
+
+.cart-items {
+  width: 60%;
+  margin: auto;
+}
+
+.dress-item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.dress-item img {
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item-details select {
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.item-details button {
+  width: 120px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #e91e63;
+  color: white;
+  cursor: pointer;
+}
+
+.price {
+  font-weight: bold;
+  color: #e91e63;
+}
+
+
+
+.cart-total {
+  width: 80%;
+  margin: 20px auto;
+  text-align: right;
+  font-size: 22px;
+  font-weight: bold;
+}
+.cart-total h5{
+  color: grey;
+}
+
+
+.other-items {
+  width: 80%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.other-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.other-card:hover {
+  transform: translateY(-5px);
+}
+
+.other-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.other-card p {
+  margin-top: 8px;
+}
+.product-price{
+ color: gold;
+  font-weight: 700;
+}
+.cart-icon{
+  width:40%;
+}
+.cart-items h2{
+  color:teal;
+}
+.buy-btn{
+   background-color:  hsl(320, 100%, 50%);
+   border: none;
+   color: white;
+   width: 100px;
+   height: 30px;
+   border-radius: 10px;
+}
+.item-details{
+  width: 250px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  margin-top: 30px;
+}
+.product-name{
+  
+  font-weight: 600;
+   color:  hsl(320, 100%, 50%);
+
+}
+select{
+  width: 200px;
+}
+
+@media (max-width: 1024px) {
+  .other-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .other-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dress-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-total {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .other-items {
+    grid-template-columns: 1fr;
+  }
+}

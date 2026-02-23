@@ -1,0 +1,261 @@
+.items{
+    width: 100%;
+    padding: 0px 20px;
+
+
+}
+
+
+.img-display{
+    display: flex;
+    gap:50px;
+    margin-top: 50px;
+    padding: 0px 40px;
+
+
+}
+#female-clothes{
+    display: flex;
+    gap:30px;
+    padding: 0px 40px;
+    
+
+}
+#image-right p{
+    line-height: 1.7;
+    font-size: 16px;
+}
+.img-display img{
+    width:40%;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+   
+    
+}
+.page-description{
+    margin-top: 50px;
+
+}
+.items-btn{
+    background-color: hsl(330, 100%, 71%);
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+     justify-content: center;
+    align-items: center;
+    
+    font-size: larger;
+    margin-bottom:40px;
+    border-radius: 10px;
+    border: none;
+}
+#image-right{
+    flex: 1;              /* THIS IS THE KEY */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+.beauty img, .male-clothes img, .female-clothes img, .fashion img{
+    width: 200px;
+    height: 240px;
+    border-radius: 10px 10px 0px 0px ;
+   
+}
+.beauty {
+     display: flex;
+     gap: 30px;
+     justify-content: center;
+}
+.male-clothes, .female-clothes, .fashion{
+     display: flex;
+     gap: 30px;
+     justify-content: center;
+}
+.view-btn{
+    background-color: hsl(330, 100%, 71%);
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+     justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: larger;
+    margin-bottom: 30px;
+    border: none;
+    
+}
+.items-sections{
+    margin-top:80px;
+}
+.image6{
+    display:grid;
+}
+.male-clothes p, #female-clothes p,.beauty p,.make-up p{
+  font-size: 14px;        
+  color: #555;
+  text-align: center;
+  margin: 10px 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.price{
+    color: gold;
+}
+.image{
+    display: grid;
+    background-color:#ffffff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12)
+}
+.items-bottom img{
+    width:50px;
+    height: 50px;
+
+}
+ul{
+    list-style: none;
+}
+.items-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+    
+}
+.items-display{
+    padding:0px 40px;
+
+}
+.items-sections p{
+     font-size: 14px;        
+  color: #555;
+  text-align: center;
+  margin: 10px 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.items-sections span{
+   color: gold;
+}
+.explanation{
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    width:60% ;
+    color: #555;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* TABLETS */
+@media (max-width: 992px) {
+
+  .img-display,
+  #female-clothes,
+  .male-clothes,
+  .female-clothes,
+  .fashion,
+  .beauty {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .img-display img {
+    width: 60%;
+    height: auto;
+  }
+
+  .beauty img,
+  .male-clothes img,
+  .female-clothes img,
+  .fashion img {
+    width: 150px;
+    height: 180px;
+  }
+
+  .items-btn,
+  .view-btn {
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+  }
+
+  .explanation {
+    margin-left: 20px;
+    width: 90%;
+    font-size: medium;
+  }
+
+  #image-right {
+    gap: 15px;
+  }
+
+  .items-sections {
+    margin-top: 50px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+  .img-display,
+  #female-clothes,
+  .male-clothes,
+  .female-clothes,
+  .fashion,
+  .beauty {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .img-display img {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .beauty img,
+  .male-clothes img,
+  .female-clothes img,
+  .fashion img {
+    width: 120px;
+    height: 140px;
+  }
+
+  .items-btn,
+  .view-btn {
+    width: 120px;
+    height: 45px;
+    font-size: small;
+  }
+
+  .explanation {
+    margin-left: 10px;
+    width: 95%;
+    font-size: small;
+  }
+
+  #image-right {
+    row-gap: 10px;
+  }
+
+  .items-sections {
+    margin-top: 30px;
+  }
+}
