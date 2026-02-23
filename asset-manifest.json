@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kalkidanisrael/Lunessa/static/css/main.df6606a0.css",
-    "main.js": "/kalkidanisrael/Lunessa/static/js/main.c711c425.js",
+    "main.css": "/kalkidanisrael/Lunessa/static/css/main.f1c8b763.css",
+    "main.js": "/kalkidanisrael/Lunessa/static/js/main.b2e0c05a.js",
     "static/js/453.953d04e3.chunk.js": "/kalkidanisrael/Lunessa/static/js/453.953d04e3.chunk.js",
     "static/media/image.png": "/kalkidanisrael/Lunessa/static/media/image.154724b5869f40c19a6f.png",
     "static/media/ChatGPT Image Feb 13, 2026, 12_14_58 PM.png": "/kalkidanisrael/Lunessa/static/media/ChatGPT Image Feb 13, 2026, 12_14_58 PM.7eca05288f573f33e03a.png",
@@ -41,12 +41,12 @@
     "static/media/shopping (3).avif": "/kalkidanisrael/Lunessa/static/media/shopping (3).d3461319b6aa2bb63f4d.avif",
     "static/media/shopping (4).avif": "/kalkidanisrael/Lunessa/static/media/shopping (4).ac94b5068888782c1d7a.avif",
     "index.html": "/kalkidanisrael/Lunessa/index.html",
-    "main.df6606a0.css.map": "/kalkidanisrael/Lunessa/static/css/main.df6606a0.css.map",
-    "main.c711c425.js.map": "/kalkidanisrael/Lunessa/static/js/main.c711c425.js.map",
+    "main.f1c8b763.css.map": "/kalkidanisrael/Lunessa/static/css/main.f1c8b763.css.map",
+    "main.b2e0c05a.js.map": "/kalkidanisrael/Lunessa/static/js/main.b2e0c05a.js.map",
     "453.953d04e3.chunk.js.map": "/kalkidanisrael/Lunessa/static/js/453.953d04e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df6606a0.css",
-    "static/js/main.c711c425.js"
+    "static/css/main.f1c8b763.css",
+    "static/js/main.b2e0c05a.js"
   ]
 }
