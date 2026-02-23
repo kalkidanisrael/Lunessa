@@ -4,7 +4,6 @@ import './App.css';
 import Home from './component/Home/Home';
 import { BrowserRouter } from 'react-router-dom';
 import {Routes,Route} from 'react-router-dom'
-import Store from './component/Store/Store';
 import Cosmetics from './component/Pages/Comsmetics/Cosmetics';
 import MaleSection from './component/Pages/MaleSection/MaleSection.jsx'
 import FemaleSection from './component/Pages/FemaleSection/FemaleSection.jsx';
