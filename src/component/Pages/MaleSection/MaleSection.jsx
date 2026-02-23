@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { fashion_list, men_bag, men_jeans, men_list, men_sweater, men_tishert } from '../../../Assets/Assets'
+import {  men_bag, men_jeans,  men_sweater, men_tishert } from '../../../Assets/Assets'
 import { Link } from 'react-router-dom'
 import './MaleSection.css'
 const MaleSection = ({addToCart}) => {

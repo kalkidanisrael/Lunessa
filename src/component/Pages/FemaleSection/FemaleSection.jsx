@@ -1,5 +1,5 @@
 import React ,{useState}from 'react'
-import { dress_list, female_list, female_pants, jewellery_list } from '../../../Assets/Assets'
+import { dress_list, female_pants, jewellery_list } from '../../../Assets/Assets'
 import { fashion_list } from '../../../Assets/Assets'
 import './FemaleSection.css'
 import { Link } from 'react-router-dom'

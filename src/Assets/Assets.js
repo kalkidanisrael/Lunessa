@@ -1,4 +1,3 @@
-import React from 'react'
 
 //male clothes 
 import male1 from './download (31).jfif'
@@ -39,7 +38,7 @@ import fashion11 from './download (15).jfif'
 import fashion12 from './download (16).jfif'
 import fashion13 from './download (17).jfif'
 import fashion14 from './images (6).jfif'
-import fashion15 from './images (5).jfif'
+
 
 //cosmotics
 
@@ -1200,7 +1199,6 @@ image:'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDw0PDw8NDw
       name:'woven jacquard necktie',
       description:'blue and white geometric woven jacquard necktie, similar to designs from brands like Selini NY or Joy Alice. ',
       price:190,
-      _id:'',
        _id:'14'
     },
     

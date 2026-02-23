@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import { cosmo_list, cream_list, makeUp_list, oil_list } from "../../../Assets/Assets";
+import { cosmo_list, cream_list, oil_list } from "../../../Assets/Assets";
 import { useNavigate } from "react-router-dom";
 import "./Cosmetics.css";
 import { Link } from "react-router-dom";

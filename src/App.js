@@ -1,5 +1,3 @@
-
-
 import './App.css';
 import Home from './component/Home/Home';
 import { BrowserRouter } from 'react-router-dom';
@@ -15,9 +13,7 @@ import Bride from './component/Pages/Bride/Bride.jsx';
 import Groom from './component/Pages/Groom/Groom.jsx';
 function App() {
   const [cartItems,setCartItems]=useState([])
-  const [addButton,setAddButton]=useState(true)
-  const [total,SetTotal]=useState(0)
-  const [count,setCount]=useState(0)
+  const SetTotal=useState(0)
   function addToCart(item){
     if(cartItems){
       setCartItems([...cartItems,item])

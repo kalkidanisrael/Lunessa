@@ -1,16 +1,13 @@
 import React,{useState} from 'react'
 import './Header.css'
-import { Link, useNavigate, useNavigation } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { dress_list } from '../../Assets/Assets'
 const Header = () => {
   const [showMenu,setShowMenu]=useState(false)
-   const [searchActive,setSearchActive]=useState(false)
+   const [searchActive]=useState(false)
    const [searchText,setSearchText]=useState("  ")
    const navigate=useNavigate()
   
-  function handleClick(){
-    setSearchActive(prev=>!prev)
-  }
   const filteredProducts=dress_list.filter((dress,index)=>(
     dress.name.toLowerCase().includes(searchText.toLowerCase())
   ))

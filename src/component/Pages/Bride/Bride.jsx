@@ -91,7 +91,7 @@ const Bride = ({addToCart}) => {
          {
            tiara_list.map((element,index)=>(
           
-                 <ul>
+                 <ul key={index}>
                     <li ><Link to='/Cart'><button onClick={()=>addToCart(element)}><img src={element.image} alt="" /></button></Link></li>
                     <li><p>{element.name}</p></li>
                     <li className='price-tag'>${element.price}</li>

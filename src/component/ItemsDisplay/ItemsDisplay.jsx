@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./ItemsDisplay.css";
 import image1 from "./ChatGPT Image Feb 13, 2026, 12_14_58 PM.png";
-import assets, {
-  bride_list,
+import  {
+  
   dress_list,
   groom_accessories,
   groom_suit,
@@ -14,18 +14,9 @@ import assets, {
 } from "../../Assets/Assets";
 import { fashion_list } from "../../Assets/Assets";
 import { cosmo_list } from "../../Assets/Assets";
-import { men_list } from "../../Assets/Assets";
-import { female_list } from "../../Assets/Assets";
-import image2 from "./ChatGPT Image Feb 13, 2026, 12_39_59 PM.png";
-import image3 from "./image.png";
 import { Link } from "react-router-dom";
 
 const ItemsDisplay = ({ addToCart }) => {
-  const [items, setItems] = useState([]);
-
-  function handleClick(event) {
-    const Clicked = (event.target.textContent = "Remove");
-  }
 
   return (
     <div className="items">
